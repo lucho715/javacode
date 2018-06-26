@@ -42,7 +42,7 @@ public class App {
         System.out.println("Server started");
  
         runGetRequest();
-        //runDatabaseQuery();
+        runDatabaseQuery();
     }
  
     /**
@@ -77,10 +77,10 @@ public class App {
      * Performs a call to the database.
      */
     private static void runDatabaseQuery() {
-        String host = "myHost";
-        String database = "myDatabase";
-        String user = "myUsername";
-        String password = "myPassword";
+        String host = "140.86.15.104";
+        String database = "deathstar";
+        String user = "Captain";
+        String password = "welcome1";
         DBConnection db = new DBConnection("jdbc:mysql://" 
                 + host + "/" 
                 + database + "?user=" 
