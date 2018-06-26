@@ -51,7 +51,7 @@ public class App {
     private static void runGetRequest() {
  
     	// sample URL
-        String url = "http://140.86.15.104:3000/shield/33/45/blue/lucho715";
+        String url = "http://140.86.15.104:3000/shield/33/0/blue/lucho715";
         CloseableHttpResponse response = null;
  
         try {
